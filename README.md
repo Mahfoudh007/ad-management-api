@@ -42,7 +42,7 @@ This project is an **Advertisement Management API** that allows you to **Create*
 You can test the API endpoints using Postman or similar tools. Each endpoint accepts requests in JSON format with the following structure:
 
 ## Example JSON Structure for Requests
-
+```JOSN
 {
     "id": 1,
     "title": "Updated Ad Title",
@@ -51,7 +51,8 @@ You can test the API endpoints using Postman or similar tools. Each endpoint acc
     "start_date": "2024-11-15",
     "end_date": "2024-12-15",
     "status": "active"
-}
+};
+```
 
 ## API Endpoints
 - Create: src/create.php (Method: POST)
@@ -62,6 +63,8 @@ You can test the API endpoints using Postman or similar tools. Each endpoint acc
   
 ## Response Example
 In case of a successful update, the API returns a response in JSON format:
+```JOSN
 {
     "message": "Ad updated successfully"
-}
+};
+```
