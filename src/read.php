@@ -6,5 +6,5 @@ $stmt = $pdo->prepare($sql);
 $stmt->execute();
 $ads = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-echo json_encode($ads)
+echo json_encode($ads);
 ?>
